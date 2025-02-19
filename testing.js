@@ -106,13 +106,13 @@ document.body.appendChild(script);
     await loadScript('https://cdn.jsdelivr.net/npm/toastify-js', 'toastifyPlugin');
 
     showLoadingScreen();
-    await delay(1500);
+    await delay(2500);
     playAudio('https://r2.e-z.host/4d0a0bea-60f8-44d6-9e74-3032a64a9f32/gcelzszy.wav');
 
     loadedPlugins.forEach(plugin => sendToast(`🔌 ${plugin} Started!`, 2000, 'top'));
 
     hideLoadingScreen();
-    sendToast("📎 Khancliet injected!", 3000, "bottom");
+    sendToast("📎 Khanclient injected!", 3000, "bottom");
     sendToast("⭐ Made by FontesCode", 3000, "bottom");
 
     console.log("Made by FontesCode")
