@@ -1,6 +1,5 @@
 // V0.1
 const version = "V1.0.0";
-const patching = "https://github.com/TecnicComSono/Khanclient/refs/heads/main";
 
 // Plugins archive
 const loadedPlugins = [];
