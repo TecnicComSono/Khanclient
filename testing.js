@@ -5,14 +5,6 @@ const patching = "https://github.com/TecnicComSono/Khanclient/refs/heads/main";
 // Plugins archive
 const loadedPlugins = [];
 
-// 
-
-let user = {
-    username: "Username",
-    nickname: "Nickname",
-    UID: 0
-}
-
 // Plugins functions
 async function loadScript(url, label) {
     const response = await fetch(url);
@@ -121,7 +113,7 @@ document.body.appendChild(script);
 
     hideLoadingScreen();
     sendToast("📎 Khancliet injected!", 3000, "bottom");
-    sendToast("⭐ Bem vindo(a) de volta: ${user.nickname}", 3000, "bottom");
+    sendToast("⭐ Made by FontesCode", 3000, "bottom");
 
     console.log("Made by FontesCode")
 })().catch(error => console.error("Error ocurred:", error));
