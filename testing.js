@@ -149,7 +149,6 @@ document.body.appendChild(script);
 function setupMenu() {
     loadScript(repoPath+'ui/mainMenu.js', 'mainMenu');
     loadScript(repoPath+'ui/statusPanel.js', 'statusPanel');
-    loadScript(repoPath+'ui/devTab.js', 'devTab');
 }
 
 // Loading
